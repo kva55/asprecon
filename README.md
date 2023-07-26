@@ -12,4 +12,12 @@ python3 asprecon.py -t/--target <ip/domain>
 python3 asprecon.py -t/--target <ip/domain> -d/--delay <int>
 ```
 
+center {
+width: 40%;
+}
+
+<div align="center"">
+
 ![asprecon](https://github.com/kva55/asprecon/assets/60018788/f72f973f-680b-43fe-93d6-6d3780fe7bab)
+
+</div>
