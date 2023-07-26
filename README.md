@@ -14,6 +14,6 @@ python3 asprecon.py -t/--target <ip/domain> -d/--delay <int>
 
 <div align="center"">
 
-![asprecon](https://github.com/kva55/asprecon/assets/60018788/f72f973f-680b-43fe-93d6-6d3780fe7bab)
+![asprecon](https://github.com/kva55/asprecon/assets/60018788/f69f4586-6da3-48a3-8a50-ffb6a698a0e8)
 
 </div>
