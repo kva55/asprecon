@@ -4,16 +4,16 @@ If the target responds with a status code 403 against any of the versions, the w
 
 ## Usage:
 ```
-python3 asprecon.py -t/--target <ip/domain>
+python3 asprecon.py -t/--target <http/s://target>
 ```
 
 ### Time delay
 ```
-python3 asprecon.py -t/--target <ip/domain> -d/--delay <int>
+python3 asprecon.py -t/--target <http/s://target> -d/--delay <int>
 ```
 
 <div align="center"">
 
-![asprecon](https://github.com/kva55/asprecon/assets/60018788/f69f4586-6da3-48a3-8a50-ffb6a698a0e8)
+![asprecon](https://github.com/kva55/asprecon/assets/60018788/c8e6bce4-2112-498a-8903-64bc134776d4)
 
 </div>
