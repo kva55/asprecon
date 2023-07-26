@@ -26,7 +26,7 @@ def CheckDirectory(target):
                 return False
 
             else:
-                print(colored("Target is likely vulnerable.", "green"))
+                print(colored("Target is likely vulnerable.\n", "green"))
                 return True
         
         else:
@@ -82,4 +82,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
