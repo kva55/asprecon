@@ -76,7 +76,7 @@ def main():
     var = CheckDirectory(target)
     ans = input("Do you still want to proceed with the scan? (Y/N) ")
 
-    if str(ans).lower() == "y" or str(ans).lower() == "yes" or args.yes:
+    if str(ans).lower() == "y" or str(ans).lower() == "yes" or args.yes == True:
         BruteForce(target)
     else:
         exit(0)
