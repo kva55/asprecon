@@ -74,12 +74,14 @@ def main():
         delay = args.delay
               
     var = CheckDirectory(target)
-    ans = input("Do you still want to proceed with the scan? (Y/N) ")
-
-    if str(ans).lower() == "y" or str(ans).lower() == "yes" or args.yes == True:
-        BruteForce(target)
+    if args.yes == False:
+        ans = input("Do you still want to proceed with the scan? (Y/N) ")
+        if str(ans).lower() == "y" or str(ans).lower() == "yes":
+            BruteForce(target)
+        else:
+            exit(0)
     else:
-        exit(0)
+        BruteForce(target)
 
 if __name__ == "__main__":
     main()
