@@ -65,6 +65,7 @@ def main():
     parser = argparse.ArgumentParser(epilog="e.g. python3 asprecon -t http/s://127.0.0.1:80 -d 1",)
     parser.add_argument("-t", "--target", metavar='', help="Target to scan (ip/domain)", required=True)
     parser.add_argument("-d", "--delay",metavar='', type=int, help="Time delay each scan per second(s)")
+    parser.add_argument('--yes', action='store_true', help='Pipe "yes" to prompts')
                         
     args = parser.parse_args()
 
@@ -75,7 +76,7 @@ def main():
     var = CheckDirectory(target)
     ans = input("Do you still want to proceed with the scan? (Y/N) ")
 
-    if str(ans).lower() == "y" or str(ans).lower() == "yes":
+    if str(ans).lower() == "y" or str(ans).lower() == "yes" or args.yes:
         BruteForce(target)
     else:
         exit(0)
